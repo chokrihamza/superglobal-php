@@ -55,7 +55,7 @@ echo $result;
 // preg_split()
 
 $input = "hello alex";
-$pattern = "/-/i";
+$pattern = "//";
 
 $splitarray = preg_split($pattern, $input);
 
